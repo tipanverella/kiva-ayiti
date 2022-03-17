@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kiva-ayiti"
+version = "0.1.0"
+description = "Eksplorasyon done Kiva sou Ayiti"
+authors = ["J. Tipan Verella <tverella@tunein.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.3.2"
+pandas = "^1.4.1"
+seaborn = "^0.11.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+pylint = "^2.12.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
