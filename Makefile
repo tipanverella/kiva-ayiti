@@ -19,12 +19,18 @@ build: $(PYTHONFILES) lint
 test: lint
 	poetry run pytest -vv
 
+jupyterlab:
+	poetry run jupyter-lab
+
 coverage:
 	poetry run pytest -vv --cov=$(PYTHONFILES) --cov-report=term --cov-report=html
 
 push: build
 	$(GIT) add -A
-	$(GIT) commit -m "$(CM)"
+	$(GIT) commit -m "$(MSG)"
 	$(GIT) push origin
+
+ajour:
+	$(GIT) pull origin
 
 .PHONY: lint build
