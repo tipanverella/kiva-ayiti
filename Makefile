@@ -31,7 +31,7 @@ mfini: build
 	$(GIT) push origin
 
 ajour:
-	poetry update
 	$(GIT) pull origin
+	poetry update
 
 .PHONY: lint build
