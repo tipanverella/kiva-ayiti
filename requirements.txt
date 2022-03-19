@@ -17,6 +17,7 @@ debugpy==1.5.1; python_version >= "3.7" and python_full_version < "3.0.0" or pyt
 decorator==5.1.1; python_version >= "3.8"
 defusedxml==0.7.1; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7"
 entrypoints==0.4; python_full_version >= "3.6.1" and python_version >= "3.7"
+et-xmlfile==1.1.0; python_version >= "3.6"
 executing==0.8.3; python_version >= "3.8"
 fonttools==4.31.1; python_version >= "3.7"
 idna==3.3; python_full_version >= "3.6.2" and python_version >= "3.7" and (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.7")
@@ -48,6 +49,7 @@ networkx==2.7.1; python_version >= "3.8"
 notebook-shim==0.1.0; python_version >= "3.7"
 notebook==6.4.10; python_version >= "3.7"
 numpy==1.22.3
+openpyxl==3.0.9; python_version >= "3.6"
 packaging==21.3; python_version >= "3.7"
 pandas==1.4.1; python_version >= "3.8"
 pandocfilters==1.5.0; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.7"
