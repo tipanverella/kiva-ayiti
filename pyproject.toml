@@ -13,6 +13,7 @@ seaborn = "^0.11.2"
 pyarrow = "^7.0.0"
 statsmodels = "^0.13.2"
 scikit-learn = "^1.0.2"
+networkx = "^2.7.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"

@@ -25,12 +25,13 @@ jupyterlab:
 coverage:
 	poetry run pytest -vv --cov=$(PYTHONFILES) --cov-report=term --cov-report=html
 
-push: build
+mfini: build
 	$(GIT) add -A
 	$(GIT) commit -m "$(MSG)"
 	$(GIT) push origin
 
 ajour:
+	poetry update
 	$(GIT) pull origin
 
 .PHONY: lint build
